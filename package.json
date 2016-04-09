@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-filetransfer",
+  "version": "0.0.1",
+  "description": "A simple file transfer example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krrg/nodejs-filetransfer.git"
+  },
+  "author": "Ken Reese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krrg/nodejs-filetransfer/issues"
+  },
+  "homepage": "https://github.com/krrg/nodejs-filetransfer#readme",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "when": "^3.7.7",
+    "yargs": "^4.3.2"
+  }
+}

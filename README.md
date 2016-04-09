@@ -1,2 +1,3 @@
 # nodejs-filetransfer
-A simple file transfer example
+
+This is intended as a command line utility
