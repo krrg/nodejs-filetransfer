@@ -13,10 +13,13 @@ function getMode() {
 }
 
 if (getMode() === 'client') {
-    let Client = require('./client/Client');
-    let client = new Client('index.js', 'localhost', 8000);
+    let Client = require('./Client');
+    let client = new Client('data.dat', 'localhost', 9000);
 }
 
-if (getMode() == 'server') {
-
+if (getMode() === 'server') {
+    let Server = require('./Server');
+    let server = new Server(9000);
 }
+
+console.log(getMode());
